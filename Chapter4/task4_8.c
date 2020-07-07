@@ -3,7 +3,7 @@
 #define LITERS_PER_GALLON 3.785
 #define KILOMETERS_PER_MILE 1.609
 
-int main()
+int main(void)
 {
     float miles, gallons;
     printf("Enter the number of miles traveled and the number of gallons of gasoline consumed: ");

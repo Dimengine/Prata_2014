@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <float.h>
 
-int main()
+int main(void)
 {
     float f = 1.0 / 3.0;
     double d = 1.0 / 3.0;
