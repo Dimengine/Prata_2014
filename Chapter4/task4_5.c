@@ -2,10 +2,11 @@
 
 int main()
 {
-    float mbps, fileSize;
+    float Mbs, fileSize;
 
-    printf("Input your internet speed in Mbps and file size in MB\n");
-    scanf("%f%f", &mbps, &fileSize);
-    printf("With internet speed %.2f Mbps and file size %.2f MB download finish in %.2f seconds\n", mbps, fileSize, fileSize * 8 / mbps);
+    printf("Input the download speed in megabits per second (Mbs) and the size of a file in megabytes (MB): ");
+    scanf("%f%f", &Mbs, &fileSize);
+
+    printf("At %.2f megabits per second, a file of %.2f megabytes downloads in %.2f seconds.\n", Mbs, fileSize, fileSize * 8 / Mbs);
     return 0;
 }

@@ -6,9 +6,9 @@
 int main()
 {
     float miles, gallons;
-    printf("Enter the number of driven miles and gallons used\n");
+    printf("Enter the number of miles traveled and the number of gallons of gasoline consumed: ");
     scanf("%f%f", &miles, &gallons);
-    printf("%.1f miles per 1 gallon\n", miles / gallons);
-    printf("%.1f liters per 100 kilometers\n", (gallons * LITERS_PER_GALLON * 100) / (miles * KILOMETERS_PER_MILE));
+    printf("%.1f miles-per-gallon\n", miles / gallons);
+    printf("%.1f liters-per-100-km\n", (gallons * LITERS_PER_GALLON * 100) / (miles * KILOMETERS_PER_MILE));
     return 0;
 }

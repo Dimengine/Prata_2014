@@ -5,8 +5,8 @@ int main()
     float height;
     char name[20];
 
-    printf("Enter your name and height(cm):\n");
+    printf("Enter your name and height centimeters: ");
     scanf("%s%f", name, &height);
-    printf("%s your height is %.2f meters\n", name, height / 100);
+    printf("%s, you are %.2f meters tall\n", name, height / 100);
     return 0;
 }
