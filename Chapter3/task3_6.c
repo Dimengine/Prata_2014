@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int amount_in_quarts, amount_in_grams;
     double amount_molecules;
