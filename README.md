@@ -1,1 +1,1 @@
-# Prata_2014
+# C Primer Plus, 6th Edition. Stephen Prata.
